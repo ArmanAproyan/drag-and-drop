@@ -1,0 +1,25 @@
+.draging_block {
+    width: 900px;
+    height: 300px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    user-select: none;
+    gap: 10px;
+    background-color: #EFD6AC;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
